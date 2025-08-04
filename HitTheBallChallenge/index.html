@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hit the Ball Challenge....</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">
+        <h2>Hit the Ball and Gain the Scores!</h2>
+        <svg class="man">
+          <g id="player">
+            <circle
+              cx="50"
+              cy="50"
+              r="20"
+              stroke="green"
+              stroke-width="4"
+              fill="yellow"
+            />
+            <line
+              x1="50"
+              y1="70"
+              x2="50"
+              y2="120"
+              stroke="green"
+              stroke-width="4"
+            />
+            <line
+              x1="20"
+              y1="80"
+              x2="80"
+              y2="80"
+              stroke="green"
+              stroke-width="4"
+            />
+            <line
+              x1="50"
+              y1="120"
+              x2="20"
+              y2="140"
+              stroke="green"
+              stroke-width="4"
+            />
+            <line
+              x1="50"
+              y1="120"
+              x2="70"
+              y2="140"
+              stroke="green"
+              stroke-width="4"
+            />
+          </g>
+          <circle
+            id="ball"
+            cx="220"
+            cy="300"
+            r="20"
+            stroke="green"
+            stroke-width="4"
+            fill="pink"
+          />
+          <g id="goal">
+          <line
+           x1="1200"
+           y1="50"
+           x2="1200"
+           y2="550"
+           stroke="white"
+           stroke-width="10"
+          />
+          <line
+           x1="1200"
+           y1="50"
+           x2="1160"
+           y2="30"
+           stroke="white"
+           stroke-width="10"
+          />
+          <line
+           x1="1200"
+           y1="550"
+           x2="1160"
+           y2="570"
+           stroke="white"
+           stroke-width="10"
+          />
+        </g>
+        </svg>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
